@@ -1,0 +1,17 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: bisque;
+
+}
+
+.corpo{
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
