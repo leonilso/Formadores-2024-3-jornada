@@ -48,4 +48,8 @@ iframe:hover{
     align-items: end;
 }
 
+.tags{
+    display: flex;
+}
+
 
