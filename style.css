@@ -16,6 +16,7 @@ header{
     padding: 20px;
     font-size: 32px;
     color: #ffffff;
+    height: 25%;
 }
 
 section{
@@ -25,6 +26,7 @@ section{
     display: grid;
     justify-content: center;
     align-items: center;
+    height: 50%;
 }
 
 .chamada-textoS{
@@ -44,7 +46,7 @@ iframe:hover{
 
 .rodape{
     position: relative;
-    max-height: 150px;
+    height: 25px;
     background-color: #000000;
     align-items: end;
 }
