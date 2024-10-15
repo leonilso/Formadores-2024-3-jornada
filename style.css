@@ -42,8 +42,10 @@ iframe:hover{
 }
 
 .rodape{
+    position: relative;
     max-height: 150px;
     background-color: #000000;
+    align-items: end;
 }
 
 
