@@ -5,11 +5,12 @@
 
 body{
     color: #f2ceab;
-    background-color: #595757;
+    background-color: #000000;
 
 }
 
 header{
+    text-align: center;
     border-bottom: solid 2px #f2ceab;
     padding: 20px;
     font-size: 32px;
