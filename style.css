@@ -26,6 +26,7 @@ section{
     justify-content: center;
     align-items: center;
     height: 50%;
+    border-bottom: solid 2px #ffffff;
 }
 
 .chamada-textoS{
@@ -43,6 +44,7 @@ iframe:hover{
 }
 
 .rodape{
+    text-align: center;
     position: relative;
     background-color: #000000;
     align-items: end;
