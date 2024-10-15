@@ -4,17 +4,17 @@
 }
 
 body{
-    color: #f2ceab;
+    color: #ffffff;
     background-color: #000000;
 
 }
 
 header{
     text-align: center;
-    border-bottom: solid 2px #f2ceab;
+    border-bottom: solid 2px #ffffff;
     padding: 20px;
     font-size: 32px;
-    color: #f2ceab;
+    color: #ffffff;
 }
 
 section{
@@ -28,6 +28,17 @@ section{
 
 .chamada-textoS{
     margin-right: 20px;
+}
+
+iframe{
+    animation-duration: 1s;
+    transform: scale(1.0);
+}
+
+
+iframe:hover{
+    animation-duration: 1s;
+    transform: scale(1.2);
 }
 
 
