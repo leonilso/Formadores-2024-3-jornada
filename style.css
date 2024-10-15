@@ -31,13 +31,12 @@ section{
 }
 
 iframe{
-    animation-duration: 1s;
+    transition-duration: 1s;
     transform: scale(1.0);
 }
 
 
 iframe:hover{
-    animation-duration: 1s;
     transform: scale(1.2);
 }
 
