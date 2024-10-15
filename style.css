@@ -4,20 +4,28 @@
 }
 
 body{
-    background-color: bisque;
+    color: white;
+    background-color: rgb(0, 0, 0);
 
 }
 
 header{
-    text-align: center;
+    border-bottom: solid 2px rgb(0, 255, 229);
+    padding: 20px;
+    font-size: 32px;
+    color: rgb(0, 255, 229);
 }
 
-.corpo{
+section{
+    background: red;
+    padding-bottom: 80px;
+    padding-top: 80px;
     display: flex;
+    justify-content: center;
 }
 
-.conteudos{
-    justify-content: center;
-    align-items: center;
+.chamada-textoS{
+    margin-right: 20px;
 }
+
 
