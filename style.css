@@ -54,5 +54,7 @@ iframe:hover{
 
 a{
     margin: 2px;
+    text-decoration: none;
+    color: #72b5a4;
 }
 
