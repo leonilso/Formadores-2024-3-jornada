@@ -42,7 +42,7 @@ iframe:hover{
 }
 
 .rodape{
-    height: 150px;
+    max-height: 150px;
     background-color: #000000;
 }
 
