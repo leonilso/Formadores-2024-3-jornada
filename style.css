@@ -25,6 +25,8 @@ section{
     justify-content: center;
     align-items: center;
     border-bottom: solid 2px #ffffff;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .chamada-textoS{
