@@ -16,6 +16,7 @@ function selecionarVideo(linkEscolhido){
     let novaLista = listaLinks.slice()
     let indiceRemover = novaLista.indexOf(linkEscolhido)
     novaLista.splice(indiceRemover, 1)
+    console.log(novaLista)
 
 
     for( let i = 0; i < 3; i++){
