@@ -21,8 +21,6 @@ header{
 
 section{
     background: #ff0000;
-    padding-bottom: 80px;
-    padding-top: 80px;
     display: grid;
     justify-content: center;
     align-items: center;
