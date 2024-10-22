@@ -19,14 +19,14 @@ header{
     height: 10%; 
 }
 
-section{
+.conteudo-principal{
     background: #ff0000;
     display: grid;
     justify-content: center;
     align-items: center;
     border-bottom: solid 2px #ffffff;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .chamada-textoS{
@@ -42,7 +42,7 @@ iframe{
 
 iframe:hover{
     transform: scale(1.1);
-    margin: 2px;
+    margin: 10px;
 }
 
 .rodape{
