@@ -67,3 +67,12 @@ a:hover{
     text-decoration: underline;
 }
 
+img{
+    height: 200px;
+}
+
+.opcoes{
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
