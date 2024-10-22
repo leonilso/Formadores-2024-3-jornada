@@ -19,15 +19,20 @@ header{
     height: 10%; 
 }
 
-.conteudo-principal{
+section{
     background: #ff0000;
     display: grid;
     justify-content: center;
     align-items: center;
     border-bottom: solid 2px #ffffff;
+}
+
+.conteudo-principal{
     padding-top: 30px;
     padding-bottom: 30px;
 }
+
+
 
 .chamada-textoS{
     margin: 10px;
