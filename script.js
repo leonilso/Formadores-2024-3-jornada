@@ -1,13 +1,12 @@
 const listaLinks = [
-    "peZa5TKKc4D9ZGpm",
+    "gSWFF1dQTIs",
     "INnXkoJwV0M",
     "DH72gRefp-E",
     "C2S1cJIcYus",
     "gc5MPP3ILHU"
 ]
-
 let randomIndex = Math.floor(Math.random() * listaLinks.length);
-let linkEscolhido = arr[randomIndex];
+let linkEscolhido = listaLinks[randomIndex];
 
 function selecionarVideo(linkEscolhido){
     let videoPrincipal = document.getElementById("principal")
@@ -16,12 +15,14 @@ function selecionarVideo(linkEscolhido){
     let novaLista = listaLinks.slice()
     let indiceRemover = novaLista.indexOf(linkEscolhido)
     novaLista.splice(indiceRemover, 1)
-    console.log(novaLista)
 
-
+    let videosSecundarios = document.getElementById("opcoes")
     for( let i = 0; i < 3; i++){
         const frame = document.createElement("img");
         frame.src = `https://img.youtube.com/vi/${novaLista[i]}/maxresdefault.jpg`
+        frame.id = novaLista[i]
+        frame.onclick = selecionarVideo(frame.id)
+        videosSecundarios.appendChild(frame)
     }
 }
 
