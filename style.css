@@ -36,8 +36,12 @@ section{
 
 iframe{
     transition-duration: 1s;
-    border-radius: 10px;
-    box-shadow:  0 0 5px 5px rgba(0, 0, 0, 0.478);
+    border-radius: 10px; 
+    box-shadow:
+      20px 15px 30px rgb(139, 139, 2),
+      -20px 15px 30px rgb(2, 175, 2),
+      -20px -15px 30px blue,
+      20px -15px 30px rgb(166, 7, 7);
 }
 
 
