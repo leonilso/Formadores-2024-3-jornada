@@ -1,3 +1,5 @@
+// Lista de links dos meus vídeos
+
 const listaLinks = [
     "gSWFF1dQTIs",
     "INnXkoJwV0M",
@@ -5,6 +7,8 @@ const listaLinks = [
     "C2S1cJIcYus",
     "gc5MPP3ILHU"
 ]
+
+// Objeto com as chaves sendo meus links e o incorporar associado
 
 const linkIncorporar = {
     "gSWFF1dQTIs":"https://www.youtube.com/embed/gSWFF1dQTIs?si=VRhJg9yT7t5pHem20",
@@ -14,29 +18,40 @@ const linkIncorporar = {
     "gc5MPP3ILHU":"https://www.youtube.com/embed/gc5MPP3ILHU?si=qZsh_jWJYYohRaCS"
 }
 
+// Selecionando um valor aleatório inicialmente
 
 let randomIndex = Math.floor(Math.random() * listaLinks.length);
 let linkEscolhido = listaLinks[randomIndex];
 
-function selecionarVideo(linkEscolhido){
-    let videoPrincipal = document.getElementById("principal")
-    videoPrincipal.src = linkIncorporar[linkEscolhido]
-    console.log(videoPrincipal.src)
 
+
+function selecionarVideo(linkEscolhido){
+
+    // Selecionando o vídeo principal
+    let videoPrincipal = document.getElementById("principal")
+    // Alterando o link do incorporar principal
+    videoPrincipal.src = linkIncorporar[linkEscolhido]
+
+    // Clonando minha lista original e removendo o principal
     let novaLista = listaLinks.slice()
     let indiceRemover = novaLista.indexOf(linkEscolhido)
     novaLista.splice(indiceRemover, 1)
 
+    // Resetando o vídeos secundários
     let videosSecundarios = document.getElementById("opcoes")
     videosSecundarios.innerHTML = ""
+
+    // Criando novos elementos/imagens para usar no site
     for( let i = 0; i < 4; i++){
         const frame = document.createElement("img");
         frame.src = `https://img.youtube.com/vi/${novaLista[i]}/maxresdefault.jpg`
         frame.id = novaLista[i]
+        // Adicionando o evento onclick chamando recursivamente a função selecionar vídeo
         frame.onclick = () => {selecionarVideo(frame.id)}
         videosSecundarios.appendChild(frame)
     }
 }
 
+// Selecionando o primeiro vídeo
 selecionarVideo(linkEscolhido)
 
