@@ -29,8 +29,20 @@ function selecionarVideo(linkEscolhido){
 
     // Selecionando o vídeo principal
     let videoPrincipal = document.getElementById("principal")
-    videoPrincipal.style.animationName = ""
-    videoPrincipal.style.animationName = "aumentar"
+
+
+    videoPrincipal.animate(
+        [
+          // keyframes
+          0%{ transform: "scale(0.5)" },
+          100%{ transform: "scale(1)" },
+        ],
+        {
+          // timing options
+          duration: 3000,
+          iterations: Infinity,
+        },
+      );
     // Alterando o link do incorporar principal
     videoPrincipal.src = linkIncorporar[linkEscolhido]
 

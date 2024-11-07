@@ -86,14 +86,14 @@ img{
 }
 
 #principal{
-    animation-duration: 3s;
+    transform: scale();
 }
 
-@keyframes aumentar {
+/* @keyframes aumentar {
     0% {
       scale: 50%;
     }
     100% {
         scale: 100%;
       }
-  }
+  } */
