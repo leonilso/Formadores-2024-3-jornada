@@ -40,7 +40,7 @@ function selecionarVideo(linkEscolhido){
         {
           // timing options
           duration: 3000,
-          iterations: Infinity,
+          iterations: 1,
         },
       );
     // Alterando o link do incorporar principal
