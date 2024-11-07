@@ -89,12 +89,16 @@ img{
     animation-duration: 3s;
 }
 
-@keyframes diminuir {
-    from {
-      scale: 200%;
+@keyframes aumentar {
+    0% {
+      scale: 50%;
     }
   
-    to {
-      scale: 100%;
+    50% {
+      scale: 75%;
     }
+
+    100% {
+        scale: 100%;
+      }
   }
