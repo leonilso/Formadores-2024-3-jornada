@@ -84,3 +84,17 @@ img{
     overflow-x: auto;
     gap: 10px;
 }
+
+#principal{
+    animation-duration: 3s;
+}
+
+@keyframes diminuir {
+    from {
+      scale: 200%;
+    }
+  
+    to {
+      scale: 100%;
+    }
+  }

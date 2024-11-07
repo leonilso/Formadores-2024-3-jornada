@@ -29,6 +29,7 @@ function selecionarVideo(linkEscolhido){
 
     // Selecionando o vídeo principal
     let videoPrincipal = document.getElementById("principal")
+    videoPrincipal.style.animationName = "diminuir"
     // Alterando o link do incorporar principal
     videoPrincipal.src = linkIncorporar[linkEscolhido]
 
