@@ -42,6 +42,7 @@ function selecionarVideo(linkEscolhido){
       },
     );
     videoPrincipal.src = linkIncorporar[linkEscolhido]
+    videoPrincipal.style.transform = "scale(0.1)"
 
         
         
