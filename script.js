@@ -41,13 +41,11 @@ function selecionarVideo(linkEscolhido){
         iterations: 1,
       },
     );
-    videoPrincipal.style.display = "none"
     videoPrincipal.src = linkIncorporar[linkEscolhido]
 
         
         
     setTimeout(() =>{
-      videoPrincipal.style.display = "grid"
       // Alterando o link do incorporar principal
       videoPrincipal.animate(
         [
@@ -57,7 +55,7 @@ function selecionarVideo(linkEscolhido){
         ],
         {
           // timing options
-          duration: 5000,
+          duration: 2000,
           iterations: 1,
         },
       ) 
