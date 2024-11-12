@@ -41,12 +41,13 @@ function selecionarVideo(linkEscolhido){
         iterations: 1,
       },
     );
-
+    videoPrincipal.style.display = "none"
+    videoPrincipal.src = linkIncorporar[linkEscolhido]
+    videoPrincipal.style.display = "grid"
         
         
     setTimeout(() =>{
       // Alterando o link do incorporar principal
-      videoPrincipal.src = linkIncorporar[linkEscolhido]
       videoPrincipal.animate(
         [
           // keyframes
