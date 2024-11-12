@@ -42,9 +42,11 @@ function selecionarVideo(linkEscolhido){
       },
     );
 
-        // Alterando o link do incorporar principal
-        videoPrincipal.src = linkIncorporar[linkEscolhido]
+        
+        
     setTimeout(() =>{
+      // Alterando o link do incorporar principal
+      videoPrincipal.src = linkIncorporar[linkEscolhido]
       videoPrincipal.animate(
         [
           // keyframes
