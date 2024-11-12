@@ -37,7 +37,7 @@ function selecionarVideo(linkEscolhido){
       ],
       {
         // timing options
-        duration: 1000,
+        duration: 5000,
         iterations: 1,
       },
     );
@@ -56,7 +56,7 @@ function selecionarVideo(linkEscolhido){
         ],
         {
           // timing options
-          duration: 2000,
+          duration: 5000,
           iterations: 1,
         },
       ) 
