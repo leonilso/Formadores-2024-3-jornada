@@ -41,12 +41,11 @@ function selecionarVideo(linkEscolhido){
         iterations: 1,
       },
     );
+    videoPrincipal.style.transform = "scale(0.1)"
     videoPrincipal.src = linkIncorporar[linkEscolhido]
-    
 
-        
-        
     setTimeout(() =>{
+      videoPrincipal.style.transform = "scale(1.0)"
       // Alterando o link do incorporar principal
       videoPrincipal.animate(
         [
@@ -60,7 +59,7 @@ function selecionarVideo(linkEscolhido){
           iterations: 1,
         },
       ) 
-    }, 6000)
+    }, 8000)
 
 
 
