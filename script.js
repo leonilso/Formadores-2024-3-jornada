@@ -60,7 +60,7 @@ function selecionarVideo(linkEscolhido){
           iterations: 1,
         },
       ) 
-    }, 1000)
+    }, 6000)
 
 
 
