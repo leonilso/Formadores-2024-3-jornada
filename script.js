@@ -34,7 +34,7 @@ function selecionarVideo(linkEscolhido){
     videoPrincipal.animate(
         [
           // keyframes
-          { transform: "scale(0.5)" },
+          { transform: "scale(0.1)" },
           { transform: "scale(0.5)" },
           { transform: "scale(1)" },
         ],
