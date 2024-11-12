@@ -42,6 +42,9 @@ function selecionarVideo(linkEscolhido){
       },
     );
 
+        // Alterando o link do incorporar principal
+        videoPrincipal.src = linkIncorporar[linkEscolhido]
+
     videoPrincipal.animate(
         [
           // keyframes
@@ -54,8 +57,7 @@ function selecionarVideo(linkEscolhido){
           iterations: 1,
         },
       );
-    // Alterando o link do incorporar principal
-    videoPrincipal.src = linkIncorporar[linkEscolhido]
+
 
     // Clonando minha lista original e removendo o principal
     let novaLista = listaLinks.slice()
