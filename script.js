@@ -45,18 +45,18 @@ function selecionarVideo(linkEscolhido){
         // Alterando o link do incorporar principal
         videoPrincipal.src = linkIncorporar[linkEscolhido]
 
-    videoPrincipal.animate(
-        [
-          // keyframes
-          { transform: "scale(0.1)"},
-          { transform: "scale(1)" },
-        ],
-        {
-          // timing options
-          duration: 1000,
-          iterations: 1,
-        },
-      );
+    // videoPrincipal.animate(
+    //     [
+    //       // keyframes
+    //       { transform: "scale(0.1)"},
+    //       { transform: "scale(1)" },
+    //     ],
+    //     {
+    //       // timing options
+    //       duration: 1000,
+    //       iterations: 1,
+    //     },
+    //   );
 
 
     // Clonando minha lista original e removendo o principal
