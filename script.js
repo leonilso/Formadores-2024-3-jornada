@@ -35,11 +35,12 @@ function selecionarVideo(linkEscolhido){
         [
           // keyframes
           { transform: "scale(0.5)" },
+          { transform: "scale(0.5)" },
           { transform: "scale(1)" },
         ],
         {
           // timing options
-          duration: 1000,
+          duration: 2000,
           iterations: 1,
         },
       );
