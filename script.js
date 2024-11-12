@@ -47,7 +47,6 @@ function selecionarVideo(linkEscolhido){
         
         
     setTimeout(() =>{
-      videoPrincipal.style.transform = "scale(0.1)"
       // Alterando o link do incorporar principal
       videoPrincipal.animate(
         [
