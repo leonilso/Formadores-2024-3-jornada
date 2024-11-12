@@ -39,7 +39,7 @@ function selecionarVideo(linkEscolhido){
         ],
         {
           // timing options
-          duration: 3000,
+          duration: 1000,
           iterations: 1,
         },
       );
