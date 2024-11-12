@@ -29,18 +29,28 @@ function selecionarVideo(linkEscolhido){
 
     // Selecionando o vídeo principal
     let videoPrincipal = document.getElementById("principal")
-
+    videoPrincipal.animate(
+      [
+        // keyframes
+        { transform: "scale(1)"},
+        { transform: "scale(0.1)" },
+      ],
+      {
+        // timing options
+        duration: 1000,
+        iterations: 1,
+      },
+    );
 
     videoPrincipal.animate(
         [
           // keyframes
           { transform: "scale(0.1)"},
-          { transform: "scale(0.1)" },
           { transform: "scale(1)" },
         ],
         {
           // timing options
-          duration: 2000,
+          duration: 1000,
           iterations: 1,
         },
       );
