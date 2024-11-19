@@ -1,22 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Doto:wght@100..900&family=Sedan+SC&display=swap');
+
 *{
     margin: 0px;
     padding: 0px;
 }
 
-.doto-fonte {
-    font-family: "Doto", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 100;
-    font-style: normal;
-    font-variation-settings:
-      "ROND" 0;
-  }
 
-  .sedan-sc-regular {
-    font-family: "Sedan SC", serif;
-    font-weight: 400;
-    font-style: normal;
-  }
+
 
 body{
     color: #ffffff;
