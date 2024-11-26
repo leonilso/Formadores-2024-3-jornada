@@ -26,7 +26,8 @@ header{
 }
 
 section{
-    background: #ff0000;
+
+    background: linear-gradient(red, black);
     display: grid;
     justify-content: center;
     align-items: center;
