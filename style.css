@@ -27,7 +27,7 @@ header{
 
 section{
     /* background: red; */
-    background: linear-gradient(red, black);
+    background: linear-gradient(to top, red, black);
     display: grid;
     justify-content: center;
     align-items: center;
