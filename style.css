@@ -61,7 +61,7 @@ iframe:hover{
 .rodape{
     text-align: center;
     position: relative;
-    background-color: #000000;
+    background: linear-gradient(to top, red, black);
     align-items: end;
 }
 
